@@ -26,6 +26,7 @@ docker image ls # list the latest images
 
 docker run -t app python app.py --name "Big John"
 
+(more info in the run_docker.sh file)
 
 
 
