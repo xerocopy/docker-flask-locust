@@ -16,3 +16,16 @@ A docker + flask + locust demo project
 This book is being written "just in time", with a weekly release schedule.
 
 ![cloud4data books](https://d2sofvawe08yqg.cloudfront.net/cloud4data/hero2x?1578933644)
+
+
+notes to build a docker file within the current directory:
+
+docker build --tag app .  # build image in the current directory # app is the name of the docker
+
+docker image ls # list the latest images
+
+docker run -t app python app.py --name "Big John"
+
+
+
+
